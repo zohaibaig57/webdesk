@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b0d12"><title>WebDesk — Desktop browsing anywhere</title><link rel="stylesheet" href="/style.css"></head>
+<body><main class="shell">
+<header class="top"><a class="brand" href="/"><span class="logo">W</span> WebDesk</a><span class="secure">● Private browser session</span></header>
+<section id="home" class="hero"><div class="eyebrow">DESKTOP WEB, ON ANY DEVICE</div><h1>Your desktop browser.<br><em>Anywhere.</em></h1><p>Open desktop websites from your phone, tablet or computer using a real remote Chromium browser.</p>
+<form id="startForm" class="search"><span>⌕</span><input id="startUrl" placeholder="Enter a website URL — e.g. web.whatsapp.com" value="https://web.whatsapp.com"><button>Open website ↗</button></form>
+<div class="mode"><span class="dot"></span> Desktop mode is on <small>1366 × 768 · Windows Chrome profile</small></div>
+<div class="shortcuts"><span>TRY A WEBSITE</span><button data-url="https://web.whatsapp.com">WhatsApp Web</button><button data-url="https://www.youtube.com">YouTube</button><button data-url="https://www.google.com">Google</button><button data-url="https://www.facebook.com">Facebook</button></div>
+<div class="note">WebDesk runs websites in a remote desktop browser. Some services may restrict automated or remote browsers.</div></section>
+<section id="browser" class="browser hidden"><div class="tabbar"><div class="tab"><span class="favicon">W</span><span id="tabTitle">New tab</span></div><button id="newTab" title="New session">＋</button><button id="exit" title="Close session">×</button></div>
+<div class="toolbar"><button id="back" title="Back">←</button><button id="forward" title="Forward">→</button><button id="reload" title="Reload">↻</button><form id="navForm"><input id="address" aria-label="Website address"><button>Go</button></form><span class="desktop">▣ Desktop</span><button id="full" title="Fullscreen">⛶</button></div>
+<div class="screenWrap" id="screenWrap"><div id="loading" class="loading">Starting desktop browser…</div><img id="screen" draggable="false" alt="Live remote browser view"><div class="screenHint" id="hint">Tap or click the page to interact · Keyboard appears when you select a text field</div></div>
+<div class="mobilebar"><button id="mback">←</button><button id="mhome">⌂</button><button id="mreload">↻</button><button id="mfull">⛶</button></div></section>
+<footer>WebDesk · A remote desktop browsing experiment</footer></main><script src="/app.js"></script></body></html>
